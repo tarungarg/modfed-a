@@ -1,0 +1,18 @@
+{
+  "name": "billingApp",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "start": "serve dist -p 3001",
+    "build": "webpack --mode production",
+    "dev": "concurrently \"webpack --watch\" \"serve dist -p 3001\""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
