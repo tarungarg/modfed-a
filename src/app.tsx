@@ -2,6 +2,7 @@ import React, { useEffect, useState, lazy } from "lib/react";
 
 const RateComp = lazy(() => import("rateApp/rate")) as unknown;
 
+// I am post config changes
 const App = () => {
   const [data, setData] = useState([]);
 
