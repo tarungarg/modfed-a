@@ -3,11 +3,9 @@ import React, { useEffect, useState, lazy } from "lib/react";
 const RateComp = lazy(() => import("rateApp/rate")) as unknown;
 
 const App = () => {
-  "sdfdsf;";
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    "sadfsadfsdafadsfdsf"
     const data = [
       { pa: "C7", ca: "A2", p: "P2", r: "A", l: "1.1.1" },
       { pa: "C7", ca: "A2", p: "P2", r: "B", l: "1.1.2" },
